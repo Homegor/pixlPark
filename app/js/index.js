@@ -4,11 +4,6 @@ let menu = document.querySelector('.navigation-top');
 menuBtn.addEventListener('click', function(){
     menuBtn.classList.toggle('active');
     menu.classList.toggle('active');
-
-    const bg = document.querySelector(".active")
-    if (bg){
-        bg.style.backgroundColor = 0.6.opacity
-    }
 })
 // Hamburger end
 
